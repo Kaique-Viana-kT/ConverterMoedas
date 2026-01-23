@@ -13,9 +13,12 @@
         />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigate"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         app:menu="@menu/menu_bottom_nav"
+        app:itemIconSize="25dp"
+        android:paddingBottom="0dp"
         app:labelVisibilityMode="unlabeled"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

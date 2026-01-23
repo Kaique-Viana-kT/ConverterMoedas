@@ -5,11 +5,11 @@
         android:title="home"/>
 
     <item android:id="@+id/menu_converter"
-        android:icon="@drawable/arrow_two"
+        android:icon="@drawable/money"
         android:title="home"/>
 
     <item android:id="@+id/menu_profile"
-        android:icon="@drawable/profile_icon_user"
+        android:icon="@drawable/user"
         android:title="home"/>
 
 

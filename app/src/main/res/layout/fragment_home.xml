@@ -14,10 +14,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
         />
 
     <TextView
+        android:id="@+id/text_desc"
         android:text="@string/desc_app"
+        app:layout_constraintVertical_bias="0.3"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:layout_marginStart="50dp"
@@ -26,7 +29,24 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_logo" />
+        app:layout_constraintTop_toBottomOf="@+id/img_logo"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="40dp"
+        />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_start"
+        android:text="@string/button_start"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/text_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.3"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
