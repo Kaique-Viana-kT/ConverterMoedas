@@ -1,0 +1,8 @@
+DrawerLayout -> BottoNavigate não pode ser filho diretamente desse layout ele precisar estar dentro
+de outro container para que ele se adeque.
+
+Para trabalhar com fragmentos é preciso chamar a biblioteca do fragment dentro do build grande. E
+depois precisamos inflar o seu layout na classe desse fragment
+
+No BottomNavigate vamos usar o onItemClickistiner porque precisamos clicar em cada um dos itens. No
+retorno da função  vamos retornar diretemanete para a função lambda.

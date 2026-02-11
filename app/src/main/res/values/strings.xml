@@ -4,4 +4,13 @@
         converter valores entre diferentes moedas de forma rápida. Basta escolher as moedas,
         informar o valor e ver o resultado instantaneamente. Ideal para uso no dia a dia e viagens.</string>
     <string name="button_start">Começar</string>
+    <string name="information">Digite um valor para a conversão</string>
+    <string name="brl_info"><b>BRL</b></string>
+    <string name="usa_info"><b>USD</b></string>
+    <string name="brl_number">R$ 00,00</string>
+    <string name="usa_number">U$ 00,00</string>
+    <string name="button_converter">Converter</string>
+    <string name="converter"><b>R$ 00,00</b></string>
+    <string name="text_history_one">De: <b>USD</b> Para: <b>BRL</b></string>
+    <string name="number_history">R$ 00,00</string>
 </resources>

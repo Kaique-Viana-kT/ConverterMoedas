@@ -8,8 +8,8 @@
         android:icon="@drawable/money"
         android:title="home"/>
 
-    <item android:id="@+id/menu_profile"
-        android:icon="@drawable/user"
+    <item android:id="@+id/menu_history"
+        android:icon="@drawable/history"
         android:title="home"/>
 
 
